@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+html {
+ box-sizing: border-box;
+}
+*, *:before, *:after {
+ box-sizing: inherit;
+}
+/*
+
+Crear cuatro columnas de aprox 25% de tamaño utilizando
+divs y floats, poner contenido dentro.
+Agregar padding y borders a las columnas, pero deben seguir
+habiendo 4
+
+*/
+
+.col-25{
+	float: left;
+	width: 25%;
+	padding: 10px;
+	border: 1px purple solid;
+}
